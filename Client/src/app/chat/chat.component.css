@@ -68,11 +68,11 @@ body {
 .user-list li {
   padding: 8px;
   margin-bottom: 5px;
-  background-color: #ffffff;
+  background-color: #a7a1a1;
   border-radius: 5px;
-  border: 1px solid #ddd;
-  font-size: 14px;
-  color: #faebeb;
+  font-size: 20px;
+  color: #0c0b0b;
+  box-shadow: 3px 3px #7272ec;
 }
 
 /* Right Panel: Chat Box */
@@ -120,14 +120,23 @@ body {
   padding: 10px;
   border-radius: 5px;
   word-wrap: break-word;
+  width: 40vw;
+  margin-left: 10px;
 }
 
 .loginUserMessage {
-  background-color: #007bff;
-  color: white;
+  background-color: #6093df;
+  color: #333;
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 5px;
   word-wrap: break-word;
   text-align: right;
+  width: 35vw;
+  margin-left: 39vw;
 }
+
+.message::-webkit-scrollbar-track {
+  background-color: #c0c0fa;
+}
+
