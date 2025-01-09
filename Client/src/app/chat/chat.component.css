@@ -1,0 +1,133 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+/* Header */
+.chatHeader {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #0056b3;
+}
+
+.chatHeader p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.chatHeader button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.chatHeader button:hover {
+  background-color: #c82333;
+}
+
+/* Chat Container */
+.chat-container {
+  display: flex;
+  height: calc(100vh - 100px);
+}
+
+/* Left Panel: User List */
+.user-list {
+  width: 25%;
+  background-color: #17436e;
+  padding: 15px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.user-list h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #f8faf5;
+}
+
+.user-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-list li {
+  padding: 8px;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #faebeb;
+}
+
+/* Right Panel: Chat Box */
+.chat-box {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+  background-color: #9ebddf;
+}
+
+.message {
+  height: 83vh;
+  border-radius: 5px;
+  border: 1px solid #6d67677c;
+}
+
+.message-input {
+  height: 9vh;
+  border: 1px solid #6d67677c;
+}
+
+.message-input input {
+  margin: 15px 0 15px 0;
+  width: 66vw;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #ece3e3;
+}
+
+.message-input button {
+  width: 7vw;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #288df8;
+  margin-left: 2px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logoutUserMessage {
+  background-color: #f1f1f1;
+  color: #333;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  word-wrap: break-word;
+}
+
+.loginUserMessage {
+  background-color: #007bff;
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  word-wrap: break-word;
+  text-align: right;
+}

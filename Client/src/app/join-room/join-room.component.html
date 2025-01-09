@@ -1,0 +1,11 @@
+<div class="container">
+    <form (ngSubmit)="joinRoom()">
+        <label for="user" style="font-size: 20px;">User</label>
+        <input type="text" id="user" [(ngModel)]="userRoomConnection.user" name="user" placeholder="Enter UserName" required>
+        <br>
+        <label for="room" style="font-size: 20px;">Room:</label>
+        <input type="text" id="text" [(ngModel)]="userRoomConnection.room" name="room" placeholder="Enter Roomname" required>
+        <br>
+        <button type="submit">Join Room</button>
+      </form>
+  </div>
